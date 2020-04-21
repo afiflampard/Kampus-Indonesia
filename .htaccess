@@ -1,0 +1,48 @@
+php_value memory_limit 300M
+php_value post_max_size 300M
+php_value upload_max_filesize 300M
+
+
+RewriteEngine On  
+
+ 
+RewriteRule ^home/?$ index.php?show=home [NC,L]
+RewriteRule ^about/?$ index.php?show=about [NC,L]
+RewriteRule ^logout/?$ logout.php [NC,L]
+RewriteRule ^login/?$ index.php?show=login [NC,L]
+RewriteRule ^register/?$ index.php?show=register [NC,L]
+RewriteRule ^forgot/?$ index.php?show=forgot [NC,L]
+
+
+
+RewriteRule ^redeem/?$ index.php?show=redeem [NC,L]
+RewriteRule ^list-redeem/?$ index.php?show=list-redeem [NC,L]
+RewriteRule ^film/?$ index.php?show=film [NC,L] 
+RewriteRule ^wishlist/?$ index.php?show=wishlist [NC,L] 
+RewriteRule ^master/?$ master/index.php [NC,L]
+
+
+RewriteRule ^info/?$ index.php?show=info [NC,L]
+RewriteRule ^info/(.*)/?$ index.php?show=info&id=$1 [NC,L]
+
+RewriteRule ^materi/?$ index.php?show=materi [NC,L]
+RewriteRule ^materi/(.*)/?$ index.php?show=materi&id=$1 [NC,L]
+ 
+RewriteRule ^start_tryout/(.*)/?$ index.php?show=start_tryout&kode=$1 [NC,L]
+RewriteRule ^finish/(.*)/?$ index.php?show=finish&kode=$1 [NC,L]
+
+
+
+RewriteRule ^baca/?$ index.php?show=baca [NC,L]
+RewriteRule ^baca/([A-Za-z0-9-]+)/?$ index.php?show=baca&kode=$1 [NC,L]
+RewriteRule ^baca/([A-Za-z0-9-]+)/(.*)/?$ index.php?show=baca&kode=$1 [NC,L]
+
+
+RewriteRule ^start/?$ index.php?show=start [NC,L]
+RewriteRule ^start/([A-Za-z0-9-]+)/?$ index.php?show=start&kode=$1 [NC,L]
+RewriteRule ^start/([A-Za-z0-9-]+)/(.*)/?$ index.php?show=start&kode=$1 [NC,L]
+
+RewriteRule ^crop/?$ crop.php [NC,L]
+RewriteRule ^crop/(.*)/?$ crop.php?img=$1 [NC,L]
+
+

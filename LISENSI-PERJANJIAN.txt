@@ -1,0 +1,17 @@
+Aturan Pembelian & Pemakaian
+	Website Tidak Boleh Di Perjual Belikan
+	Source Code Hanya Di Izinkan 1-2 Website Per Pembelian
+	Lisensi Yang Diberikan Adalah Per Orangan
+	Website Boleh di perjual belikan Dengan syarat :
+		- Lisensi Berpindah Tangan Kepada Pembeli
+		- Anda Tidak berhak lagi memiliki lisensinya / Menggunakannya Sesuai Undang Undang Pasal 1 angka 4 Undang-Undang Nomor 28 Tahun 2014 tentang Hak Cipta (“UU Hak Cipta”)
+	Anda Di Izinkan Untuk Membongkar / Mengedit / Menambah Fitur Pada Source Code Yang Di Berikan
+	Invoice Akan Di Hapus Setelah 1 Bulan - Maka Dari Itu Anda Di Wajibkan Mendownload Source Code Sebelum 1 Bulan .
+
+	
+	
+Support Dan Bantuan
+	Support Dan Bantuan Penuh Di Berikan Selama 1 Bulan Setelah Pembelian
+	Teknisi Hanya Membantu Pada Kerusakan Website Error & Bug
+	Tidak Ada Bantuan Terkait Design Ataupun Penambahan Fitur
+	Gratis Penginstalan Ke Host Pemilik Website
